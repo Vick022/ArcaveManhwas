@@ -1,0 +1,84 @@
+body{
+  background-image: url("https://wallpapercave.com/wp/wp9274695.jpg");
+}
+
+.container{
+
+    width: 100%;
+    justify-content: space-around;
+    background-color: #2f134b00;
+    display: flex;
+    gap: 50px;
+    margin: 0 240px;
+    padding: 30px 0;
+    width: 80%;
+  
+
+}
+
+h2{
+  font-family: "Bebas Neue", cursive;
+  font-size: 70px;
+  color: rgb(117, 89, 147);
+  margin: 0;
+}
+
+p{
+    font-size: 20px;
+    text-align: justify;
+    color: rgb(87, 82, 128);
+    margin: 10px 0;
+}
+
+.capa{
+  width: 28em;
+  height: 38em;
+  border-radius: 50px;
+}
+
+
+button {
+  background-color: rgb(117, 89, 147);
+  color: white;
+  align-items: center;
+  font-size: 18px;
+  padding: 15px 25px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  width: 16em;
+  margin: 20px 0px;
+
+}
+
+.button{
+  display: flex;
+  gap: 10px;
+  padding: 35px 0 0 0;
+ 
+} 
+
+a:link {
+  text-decoration: none;
+  color: white;
+} 
+
+a:visited{
+  color: white;
+}
+
+.site-footer{
+  bottom: 0;
+  position: absolute;
+  }
+
+.site-footer{
+  text-align: center;
+  padding:50px 50px 20px;
+  font-size:15px;
+  line-height:25px;
+  color:#737373;
+  background-color: rgba(137, 167, 210, 0.389);
+}

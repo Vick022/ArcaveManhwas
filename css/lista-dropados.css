@@ -1,0 +1,149 @@
+body{
+  margin: 0;
+  background-color: #16283c;
+}
+  
+  a:link {
+    text-decoration: none;
+    color: white;
+  } 
+  
+  a:visited{
+    color: white;
+  }
+
+.container-h1{
+    font-family: "Poppins", sans-serif;
+    padding: 20px 0 0 0;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+  }
+
+  .book-list{
+    display: flex;
+    align-items: center;
+    height: 250px;
+    transform: translateX(0);
+    transition: all 1s ease-in-out;
+    
+  }
+  
+  .book-list-item {
+    float: left;
+    margin: 0 0 45px 20px;
+    position: relative;
+  }
+  
+  .book-list-item:hover .book-list-item-img {
+    transform: scale(1.2);
+    margin: 0 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    opacity: 0.3;
+    
+  }
+  .book-list-item:hover .book-list-item-title,
+  .book-list-item:hover .book-list-item-desc,
+  .book-list-item:hover .button-class {
+    opacity: 1;
+  }
+  
+  .book-list-item-img {
+    transition: all 1s ease-in-out;
+    width: 270px;
+    height: 350px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 30px;
+   
+  }
+  
+  .book-list-item-title {
+    padding: 0 10px;
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 250px;
+    position: absolute;
+    color: grey;
+    top: 10%;
+    left: 30px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+  }
+  
+  .book-list-item-desc {
+    padding: 50px 10px;
+    font-size: 11px;
+    font-weight: 500;
+    position: absolute;
+    color: rgb(160, 160, 160);
+    top: 30%;
+    left: 30px;
+    width: 200px;
+    height: 50px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+  }
+  
+  
+  .button-class {
+    padding: 0 10px;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    align-items: center;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+    margin: 80em 0 0 0;
+  }
+  
+  .container-manhwa{
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px 15px 0 25px;
+}
+
+.content{
+  max-width: 95%;
+  gap: 5px;
+  margin: 0 auto;
+  padding: 40px 0;
+  align-items: center;
+} 
+
+
+
+i{
+  font-size: 25px;
+}
+
+.form{
+  margin: 0;
+  font-size: 14px;
+}
+
+.featured-button{
+  margin: 2px 0px 0px;
+  padding: 3px 8px;
+}
+
+.form-select{
+  width: 60px;
+}
+
+.livros{
+  float: left;
+  align-items: center;
+  height: 250px;
+  transform: translateX(0);
+  transition: all 1s ease-in-out;
+  padding:  0 0 9em 0;
+}
+
+.formulario{
+float: left;
+}
+
+.buttons-form{
+  margin: 40px;
+}
